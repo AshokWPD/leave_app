@@ -14,6 +14,11 @@ class _login_pageState extends State<login_page> {
     return MaterialApp(
       home : Scaffold (
         appBar: deffappbar(text: "LOG IN"),
+        body: Column(
+          children: [
+            
+          ],
+        ),
         
       ),
     );
