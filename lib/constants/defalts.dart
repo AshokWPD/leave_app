@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-Color defcolor =  Color.fromARGB(255, 6, 226, 242);
+Color defcolor =  Color.fromARGB(255, 112, 255, 157);
 
   
 

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:management_app/Screens/home_page.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:management_app/Screens/login_page/login.dart';
 
 Future <void> main() async{
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,9 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-
-    
-      home: Home_page(),
+      home: login_page(),
       
     );
   }
